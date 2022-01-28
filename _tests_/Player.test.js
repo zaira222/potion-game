@@ -6,6 +6,8 @@ console.log(new Potion());
 
 const Player = require('../lib/Player');
 
+
+
 test('creates a player object', () => {
     const player = new Player('Dave');
 
@@ -90,3 +92,4 @@ test("gets player's stats as an object", () => {
   
     expect(player.inventory.length).toBeLessThan(oldCount);
   });
+  
